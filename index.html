@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <title>Contains Duplicate</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contains Duplicate</h1>
+      <p>
+        The containsDuplicate function an array-like object nums as an argument
+        and checks if it contains any duplicate elements. It first converts the
+        input to an array, then sorts it in ascending order. After that, it
+        iterates through the sorted array and checks if the current element is
+        equal to the next one. If it is, the function returns true, indicating
+        that there is a duplicate in the array. If the loop completes without
+        finding any duplicates, the function returns false.
+      </p>
+
+      <input
+        type="text"
+        id="nums"
+        placeholder="list of numbers separat by',' eg:1,2,3.."
+      />
+      <button onclick="checkForDuplicate()">Check for Duplicate</button>
+      <p id="result"></p>
+    </div>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
